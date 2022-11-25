@@ -1,0 +1,106 @@
+//object creation with the given name and age.
+
+var obj = {
+    "name" : "kani",
+    "age" : "25",
+}
+console.log(obj);
+
+
+var resume = {
+    
+    "name" : "kani",
+    "age" : "25",
+    "qualification" : ["10th","12th","degree"],
+    "attendance": ["mon","Tue","wed","Thu","Fri"],
+    "location": "Chennai",
+    "Languages_known":["tamil","english"],
+    "gender": "Female",
+      
+}
+console.log(resume);
+
+var obj = {
+    "name" : "kani",
+    "age" : "25",
+}
+obj.gender = "female";
+console.log(obj);
+console.log(obj.name);
+
+//array creation in th object
+var obj = {
+    name : "kani",
+    age : "25",
+    location : "Chennai",
+    attendance : ["mon","tue","wed","thu","fri"]
+
+}
+console.log(obj);
+
+//creation of array new object resume
+
+
+var resume = {
+    name : "kani",
+    age : "25",
+    location : "Chennai",
+    attendance : ["mon","tue","wed","thu","fri"],
+    qualification : ["10th","12th","degree"],
+    experience : "10 years of experience in XXXXX company",
+    languages_known : ["tamil","English"]
+}
+console.log(resume);
+
+//array within object
+
+var arr = [
+    {
+        "name : "vivien",
+        "age : "4"
+    },
+    {
+        "name : "siva",
+        "age : "33"
+    },
+    {
+        "name : "kani",
+        "age : "27"
+    }
+
+]
+console.log(arr.name);
+
+//json format of array within object
+
+
+var arr = [
+    {
+        "name" : "vivien",
+        "age" : "4"
+    },
+
+    {
+        "name" : "siva",
+        "age" : "33"
+    },
+    {
+        "name" : "kani",
+        "age" : "27"
+    },
+
+];
+for(var i=0;i<arr.length;i++) {
+    
+    console.log(arr[i].name);
+
+}
+
+
+
+
+
+
+
+
+
